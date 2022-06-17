@@ -54,7 +54,7 @@ sqlite> select run from Cliente where nombre="Patricio";
 #### **Update**
 
 ```sql
-update nombre_tabla set columna1=valor1 and columna2=valor2 where columna3=valor3;
+update nombre_tabla set columna1=valor1, columna2=valor2 where columna3=valor3;
 
 ```
 
